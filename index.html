@@ -11,9 +11,9 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="menuPrincipal">
 
-            <a class="navbar-brand" href="index.html">ALTAVOZ</a>
+            <a class="navbar-brand" href="index.html" id="nombreApp">ALTAVOZ</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -34,12 +34,11 @@
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="busqueda">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnBuscar">Search</button>
                 </form>
             </div>
         </nav>
-
     </header>
     <main>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -54,7 +53,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-8">
-                    <h1>EL FESTIVAL</h1>
+                    <h1 id="titulo1"></h1>
                     <p class="parrafo">
                         Han sido 15 ediciones de un Festival que suena a convivencia, a música, a amigos, a diversidad y a nuevos ritmos. Nos queda un sinnúmero de postales que nos recuerdan la evolución, los momentos inolvidables y el valor de Altavoz Fest para la ciudadanía.
                         Es por ello que fueron recopiladas algunas imágenes para la memoria, que hoy compartimos. Estas fotografías son de Altavoz Fest, de los años 2009 y 2010, sexta y séptima edición del Festival.
@@ -67,7 +66,7 @@
                     <img src="multimedia/altavoz2.jpg" alt="alta2" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-4">
-                    <h1>BANDA INVITADA-BAJO TIERRA</h1>
+                    <h1 id="titulo2">BANDA INVITADA-BAJO TIERRA</h1>
                     <img src="multimedia/bajoTierra.jpg" alt="bajotierra1" class="img-fluid">
                     <p>
                         El grupo fue fundado por Jaime Andrés Pulgarín, Lucas Guingue y Nicolás Naranjo en 1989, proponiendo un sonido influido por el punk y el new wave, tendencias determinantes en la formación del movimiento roquero de Medellín en los años
@@ -91,7 +90,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <script src="controlador.js"></script>
 </body>
 
 
